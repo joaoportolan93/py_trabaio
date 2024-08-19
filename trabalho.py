@@ -7,13 +7,13 @@ class Livro:
     
     def adicionar(self, quantidade):
         self.disponibilidade += quantidade
-        print(f"{quantidade} cópias de '{self.titulo}' foram adicionadas. Total disponível: {self.disponibilidade}")
+        print(f"{quantidade} cópias de '{self.titulo}' foram adicionadas. Total ainda disponível:{self.disponibilidade}")
         
     def buscar(self, nome_livro):
-        if self.titulo.lower() == nome_livro.lower():
+        if self.titulo() == nome_livro():
             print(f"Livro encontrado: {self.titulo} por {self.autor}. Disponibilidade: {self.disponibilidade}")
         else:
-            print("Livro não encontrado.")
+            print("O livro que foi escrito não foi encontrado.")
     
     def emprestar(self):
         if self.disponibilidade > 0:
@@ -68,5 +68,4 @@ def main():
         else:
             print("Escolha inválida. Tente novamente.")
 
-if __name__ == "__main__":
     main()
