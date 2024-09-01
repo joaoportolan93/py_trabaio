@@ -165,7 +165,7 @@ sudo apt-get install python-tk
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seuusuario/bibliotech.git
+   git clone https://github.com/joaoportolan93/bibliotech.git
    cd bibliotech
    ```
 
@@ -174,7 +174,7 @@ sudo apt-get install python-tk
    No terminal, navegue até o diretório do projeto e execute o arquivo principal:
 
    ```bash
-   python3 bibliotech.py
+   python bibliotech.py
    ```
 
 ### Uso
@@ -194,4 +194,4 @@ sudo apt-get install python-tk
 ---
 
 Esse README serve como uma documentação completa para o projeto, cobrindo desde a arquitetura do sistema até o uso final. Se precisar de mais alguma coisa ou ajustes, estou à disposição!
-```
+
