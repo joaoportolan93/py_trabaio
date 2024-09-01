@@ -1,7 +1,7 @@
 
-# **Bibliotech: O Futuro da Gestão de Livros em Python**
+# **Bibliotech: O Futuro da Gestão de Livros em Python**💻
 
-## Índice
+## Índice🐈‍⬛
 1. [Introdução](#introdução)
 2. [Diagrama UML](#diagrama-uml)
 3. [Documentação das Classes e Métodos](#documentação-das-classes-e-métodos)
@@ -9,11 +9,11 @@
 5. [Roadmap de Execução](#roadmap-de-execução)
 6. [Manual de Instalação e Uso](#manual-de-instalação-e-uso)
 
-## Introdução
+## Introdução🗒️
 
 Este projeto, **Bibliotech**, é um sistema simples de gerenciamento de bibliotecas implementado em Python. Ele oferece uma interface gráfica criada com `tkinter` para o cadastro de livros, usuários e a gestão de pedidos. Além disso, o código é organizado de forma orientada a objetos, facilitando a manutenção e a expansão do software.
 
-## Diagrama UML
+## Diagrama UML📊
 
 O diagrama UML abaixo representa a estrutura das classes e suas relações no sistema:
 
@@ -129,7 +129,7 @@ GerenciadorDePedidos o-- Biblioteca
    - Usuários podem solicitar livros disponíveis na biblioteca.
    - O sistema verifica se o livro está disponível antes de confirmar o pedido.
 
-## Roadmap de Execução
+## Roadmap de Execução🗺️
 
 1. **Inicialização do Programa:**
    - O programa começa instanciando a classe `BibliotecaApp`, que inicializa a interface gráfica com as opções principais de cadastro e visualização.
@@ -160,7 +160,7 @@ Se por algum motivo `tkinter` não estiver instalado, você pode instalá-lo com
 sudo apt-get install python-tk
 ```
 
-### Inicialização
+### Inicialização💻
 
 1. **Clone o repositório:**
 
@@ -177,7 +177,7 @@ sudo apt-get install python-tk
    python bibliotech.py
    ```
 
-### Uso
+### Uso⌨️
 
 - **Tela Principal:**
   - Escolha entre cadastrar livros, cadastrar usuários ou visualizar os itens já cadastrados.
