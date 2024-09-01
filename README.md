@@ -157,7 +157,7 @@ Para rodar o projeto, você precisa ter o Python instalado, além da biblioteca 
 Se por algum motivo `tkinter` não estiver instalado, você pode instalá-lo com o seguinte comando:
 
 ```bash
-sudo apt-get install python3-tk
+sudo apt-get install python-tk
 ```
 
 ### Inicialização
